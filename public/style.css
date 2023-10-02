@@ -23,4 +23,21 @@ label{
 
 /* Input style */
 input[type="text"],
-input[type]
+input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Button Style */
+
+.button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: noe;
+    border-radius: 3px;
+    cursor: pointer;
+}
